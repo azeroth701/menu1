@@ -23,7 +23,7 @@ const Ofertas = () => {
 
       <h2 className="text-[22px] ">
         SOPA | ENSALADA
-        <p className="text-[16px] grid grid-cols-3 ">
+        <p className="text-[16px] flex flex-row">
           <p>
             Asian Caesar Salad
             <p>

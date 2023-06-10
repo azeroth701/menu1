@@ -1,44 +1,76 @@
 import vino from "../img/vino/carta.jpg";
+import FoodText from "./FoodText";
 
 const Bebidas = () => {
   return (
-    <div className="text-white">
-      <h1 className="text-white text-[44px]">Bebidas</h1>
-      <h1 className="text-[24px]">
-        frapes
-        <p className="text-white text-[16px]">
-          Fresa [180 CAL] $4 Strawberry Piña Colada [300 CAL] $4
-        </p>
+    <div className="text-white  border-t border-stone-600 ">
+      <h1 className="text-white text-[44px] mt-32">bebidas</h1>
+      <h1 className="text-[24px] border-stone-600 border-b">frapes </h1>
+
+      <p className="text-white text-[16px]  border-stone-600 mt-6 mb-6">
+        <p>Fresa [180 CAL] $4 </p>
+        <p>Strawberry </p>
+        <p>Piña Colada [300 CAL] $4</p>
+      </p>
+
+      <h1 className="text-[24px] border-t border-b border-stone-600">
+        embotellados{" "}
       </h1>
-      <h1 className="text-[24px]">
-        embotellados
-        <p className="text-[16px]">
-          Agua embotellada [0 CAL] $3 Bottled Water Agua Mineral [0 CAL]
-          Pelegrino $4 | Perrier $3 Mineral Water Ice Tea Embotellado Lipton
-          [110 CAL] $3.50 Bottled Lipton Iced Tea
-        </p>
-      </h1>
-      <h1 className="text-[24px]">
-        REFRESCOS [0-130 CAL] $3
-        <p className="text-[16px]">Refill ilimitado | Unlimited refill</p>
-        <p className="text-[16px]">
-          Pepsi / Diet Pepsi 7 up / Diet 7 up Mountain Dew Tropicana Fruit Punch
-          Mirinda China
-        </p>
-      </h1>
-      <h1 className="text-[24px]">
-        DAILY SQUEEZE
-        <p className="text-[16px]">
-          Strawberry Cucumber Limeade [170 CAL] $4.50 House-Made Ginger Beer
-          [130 CAL] $4.50 Limonada [120 CAL] $4.50
-        </p>
-      </h1>
-      <h1 className="text-[24px]">CERVEZAS [90-180 CAL]</h1>
+
       <p className="text-[16px]">
-        Medalla Magna Coors Light Coors Banquet Michelob Ultra Miller Lite Blue
-        Moon Pacifico Corona Extra/Corona Light Modelo Especial Negra Modelo
-        Estrella Galicia Heineken/Heineken Light Peroni Nastro Azzurro Samuel
-        Adams
+        <p>Agua embotellada [0 CAL] $3</p>
+        <p>Bottled Water </p>
+        <p> Agua Mineral [0 CAL] Pelegrino $4 | Perrier $3</p>
+        <p>Mineral Water</p>
+        <p> Ice Tea Embotellado Lipton [110 CAL] $3.50</p>
+        <p> Bottled Lipton Iced Tea</p>
+      </p>
+
+      <h1 className="text-[24px] border-t border-stone-600 mt-2 ">
+        REFRESCOS [0-130 CAL] $3{" "}
+      </h1>
+      <p className="text-[16px] border-b ">
+        Refill ilimitado | Unlimited refill
+      </p>
+
+      <p className="text-[16px] grid grid-cols-2  border-stone-600  mt-4 mb-4">
+        <p>Pepsi / Diet Pepsi</p>
+
+        <p> Tropicana Fruit Punch</p>
+        <p>7 up / Diet 7 up</p>
+
+        <p> Mirinda China</p>
+        <p> Mountain Dew </p>
+      </p>
+
+      <h1 className="text-[24px] border-t border-b border-stone-600 mt-6">
+        DAILY SQUEEZE{" "}
+      </h1>
+      <p className="text-[16px] ">
+        <p> Strawberry Cucumber Limeade [170 CAL] $4.50</p>
+        <p> House-Made Ginger Beer [130 CAL] $4.50 </p>
+        <p>Limonada [120 CAL] $4.50</p>
+      </p>
+
+      <h1 className="text-[24px] border-t border-stone-600 mt-4">
+        CERVEZAS [90-180 CAL]
+      </h1>
+      <p className="text-[16px] grid grid-cols-2">
+        <p>Medalla</p>
+        <p>Magna</p>
+        <p>Coors Light</p>
+        <p>Coors Banquet</p>
+        <p>Michelob Ultra</p>
+        <p>Miller Lite</p>
+        <p>Blue Moon</p>
+        <p>Pacifico</p>
+        <p>Corona Extra/Corona Light</p>
+        <p>Modelo Especial</p>
+        <p>Negra Modelo</p>
+        <p>Estrella Galicia</p>
+        <p>Heineken/Heineken Light</p>
+        <p>Peroni Nastro Azzurro</p>
+        <p>Samuel Adams</p>
       </p>
       <h1 className="text-[24px]">
         TÉ [0 CAL]
