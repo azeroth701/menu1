@@ -18,35 +18,29 @@ import log from "../src/img/pfchangs.png";
 function App() {
   return (
     <div className="min-w-[100vh] min-h-[100vh] bg-gray-950  ">
-      <div className="flex">
-        
+      <div className="">
         <img className="m-4 h-[2rem]  " src={log} alt="img"></img>
       </div>
       <h1 className="text-white  text-[64px] justify-center border-2 border-red-600 bg-red-500 flex">
         menu
       </h1>
-      <div className="flex flex-col m-6">
+      <div className="flex flex-row m-6">
         <Categoria></Categoria>
         <Menutemp></Menutemp>
-       
       </div>
-      <div className="flex flex-col m-6">
-         <Bebidas></Bebidas>
-         <Acompañantes></Acompañantes>
-         <Arrfid></Arrfid>
-         <Principales></Principales>
-         <Sushi></Sushi>
-         <Sopas></Sopas>
-         <Aperitivos></Aperitivos>
-         <Postres></Postres>
-         <Kidmenu></Kidmenu>
-         <Combinacion></Combinacion>
-         <Ofertas></Ofertas>
-
       
-      
-      
-      
+      <div className=" ">
+        <Bebidas></Bebidas>
+        <Acompañantes></Acompañantes>
+        <Arrfid></Arrfid>
+        <Principales></Principales>
+        <Sushi></Sushi>
+        <Sopas></Sopas>
+        <Aperitivos></Aperitivos>
+        <Postres></Postres>
+        <Kidmenu></Kidmenu>
+        <Combinacion></Combinacion>
+        <Ofertas></Ofertas>
       </div>
     </div>
   );
