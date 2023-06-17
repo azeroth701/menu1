@@ -1,6 +1,7 @@
 const Ofertas = () => {
   return (
     <div className="text-white">
+      <div id="ofertas-section"></div>
       <h1 className="text-[44px]">ofertas para llevar</h1>
       <h2 className="text-[22px]">
         aperitivos

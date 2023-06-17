@@ -11,6 +11,7 @@ import FoodCard from "./FoodCard";
 const Combinacion = () => {
   return (
     <div className="text-white">
+         <div id="combinaciones-section"></div>
       <h1>
         combinaciones
         <p>

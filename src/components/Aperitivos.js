@@ -15,6 +15,8 @@ import FoodCard from "./FoodCard";
 const Aperitivos = () => {
   return (
     <div className="text-white m-16">
+            <div id="aperitivos-section"></div>
+
       <h1 className=" text-white text-[44px]  ">Aperitivos</h1>
 
       <FoodCard

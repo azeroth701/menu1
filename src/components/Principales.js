@@ -20,8 +20,17 @@ import ri from "../img/platos principales/veggie-fried-rice.jpg";
 import FoodCard from "./FoodCard";
 
 const Principales = () => {
+
+ const FoodCardList = [
+    {
+'img':{ke},
+'title':"CHANGâ€™S CHICKEN",
+'description':"Jugosas rebanadas de pechuga de pollo ligeramente empanadado en una salsa que combina especias y tonos agridulces. (960 CAL) 18 Juicy slices of lightly breaded chicken breast in a sauce that combines spices, and sweet and sour notes (960 CAL) 18"
+    }
+ ]
   return (
     <div className="text-white flex flex-col">
+         <div id="platosprincipales-section"></div> 
       <h1 className="text-[44px]">platos principales</h1>
       <p className="text-[22px]">AVES </p>
 
@@ -30,6 +39,8 @@ const Principales = () => {
         (6 oz) [190 CAL] o integral (6 oz) [220 CAL]. All our entrees include
         your choice of white (6 oz) [190 CAL] or brown (6 oz) [220 CAL] rice.
       </p>
+    
+
       <FoodCard
         img={ke}
         title={"CHANGâ€™S CHICKEN"}
@@ -181,3 +192,10 @@ Fried rice in a vegetarian sauce, with broccoli, carrots, bean sprouts, mushroom
   );
 };
 export default Principales;
+//{FoodCardList.map((card) => (
+ // <FoodCard
+  //  img={card.img}
+   // title={card.title}
+  //  description={card.description}
+ // />
+//))}

@@ -7,7 +7,7 @@ import ko from "../img/menu de temporada/KoreanBulgogi.jpg";
 import FoodCard from "./FoodCard";
 import FoodText from "./FoodText";
 
-
+<div id="menutemp-section"></div>
 const Temporada = () => {
   return (
     <div className="ml-10 mt-10   ">

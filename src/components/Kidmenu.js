@@ -3,6 +3,7 @@ import FoodText from "./FoodText";
 const Kidmenu = () => {
   return (
     <div className="text-white">
+       <div id="kidmenu-section"></div>
       <h1 className="text-[44px]">kid's menu</h1>
 
       <FoodText

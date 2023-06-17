@@ -13,7 +13,8 @@ const Sushi = () => {
 
 
 
-
+<div id="sushi-section"></div>
+      
       <h1 className="text-[44px] text-white ">SUSHI</h1>
 
 

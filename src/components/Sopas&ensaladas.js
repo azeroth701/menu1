@@ -8,6 +8,7 @@ import FoodCard from "./FoodCard";
 const Sopas = () => {
   return (
     <div className=" text-white">
+         <div id="sopasensala-section"></div>
       <h1 className="text-[44px]">sopas & ensaladas</h1>
       
 

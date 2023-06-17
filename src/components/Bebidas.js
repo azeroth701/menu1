@@ -1,9 +1,11 @@
 import vino from "../img/vino/carta.jpg";
 import FoodText from "./FoodText";
+import Vino from "./Button";
 
 const Bebidas = () => {
   return (
     <div className="text-white  border-t border-stone-600 ">
+      <div id="bebidas-section"></div>
       <h1 className="text-white text-[44px] mt-32">bebidas</h1>
       <h1 className="text-[24px] border-stone-600 border-b">frapes </h1>
 
@@ -72,124 +74,122 @@ const Bebidas = () => {
         <p>Peroni Nastro Azzurro</p>
         <p>Samuel Adams</p>
       </p>
-      <h1 className="text-[24px]">
-        TÉ [0 CAL]
-        <h1>
-          ORGANIC GREEN »
-          <p className="text-[16px]">Té verde con sabores robustos.</p>
-        </h1>
-        <h1 className="text-[24px]">
-          DRAGON EYE OOLONG »
-          <p className="text-[16px]">
+      <h1 className="text-[24px] border-t border-stone-600 mt-4 ">
+        TÉ [0 CAL]</h1>
+        <h1 className="text-[24px]  border-stone-600  underline mt-4 border-t">
+          ORGANIC GREEN » </h1>
+          <p className="text-[16px] mt-2">Té verde con sabores robustos.</p>
+       
+        <h1 className="text-[24px] mt-4 border-t border-stone-600 ">
+          DRAGON EYE OOLONG »</h1>
+          <p className="text-[16px] mt-2 ">
             Té robusto con sabor a salt flower, albaricoque y melocotones.
           </p>
-        </h1>
-      </h1>
-      <h1 className="text-[28px] underline">
+        
+      
+      <h1 className="text-[28px] underline border-t mt-6">
         COCTELES
-        <h2 className="text-[24px] m-3">
-          DOWN THE RABBIT HOLE $11{" "}
+        <h2 className="text-[24px] ">
+          DOWN THE RABBIT HOLE $11 </h2>
           <p className="text-[16px]">
             Whisky Rye, licor de jengibre, jugo de limón y miel.
           </p>
-        </h2>
-        <h2 className="text-[24px] m-3">
-          ORGANIC AGAVE MARGARITA [240 CAL] $11{" "}
+       
+        <h2 className="text-[24px] ">
+          ORGANIC AGAVE MARGARITA [240 CAL] $11  </h2>
           <p className="text-[16px]">
             Tequila Patrón Silver, néctar orgánico de agave agitado con jugo de
             lima fresco.
           </p>
-        </h2>
-        <h2 className="text-[24px] m-3">
+      
+        <h2 className="text-[24px] ">
           PLATINUM POM MARGARITA [330 CAL] $11
           <p className="text-[16px]">
             Tequila 1800 Silver y Cointreau con cáscaras de china y jugo de
             granada.
           </p>
         </h2>
-        <h2 className="text-[24px] m-3">
+        <h2 className="text-[24px] ">
           ASIAN PEAR MOJITO [160 CAL] $9
           <p className="text-[16px]">
             Bacardi limón, licor de manzana, hojas de menta fresca y limón.
           </p>
         </h2>
-        <h2 className="text-[24px] m-3">
+        <h2 className="text-[24px] ">
           COCO LIMÓN SOUR [210 CAL] $10
           <p className="text-[16px]">
             Vodka de Coco, agua de coco y jugo de limón fresco.
           </p>
         </h2>
-        <h2 className="text-[24px] m-3">
-          DEWAR’S 12 COCO [180 CAL] $8.50{" "}
+        <h2 className="text-[24px] ">
+          DEWAR’S 12 COCO [180 CAL] $8.50
           <p className="text-[16px]">Dewar’s 12 mezclado con agua de coco.</p>
         </h2>
-        <h2 className="text-[24px] m-3">
+        <h2 className="text-[24px] ">
           MOSCOW MULE [160 CAL] $8.50
           <p className="text-[16px]">
             Tito’s Vodka, House Made Ginger Beer y Agua de soda.
           </p>
         </h2>
-        <h2 className="text-[24px] m-3">
+        <h2 className="text-[24px] ">
           ROYAL POOL SIDE [220 CAL] $9
           <p className="text-[16px]">ROYAL POOL SIDE [220 CAL] $9</p>Bacardí
           Spiced Rum y Malibu Rum mezclados con curaçao azul, jugos de china y
           piña y un toque de 7up.
         </h2>
-        <h2 className="text-[24px] m-3">
+        <h2 className="text-[24px] ">
           SANGRÍA [380 CAL] $8.5
           <p className="text-[16px]">
             Vino blanco o tinto, ron y brandy mezclados con frutas frescas.
           </p>
         </h2>
-        <h2 className="text-[24px] m-3">
+        <h2 className="text-[24px] ">
           STRAWBERRY GINGER MARGARITA [220 CAL] $11
           <p className="text-[16px]">
             Tequila Patrón Silver, fresas frescas, jugos de jengibre y limón.
           </p>
         </h2>
-        <h2 className="text-[24px] m-3">
+        <h2 className="text-[24px] ">
           HONEY MINT G&T [220 CAL] $11
           <p className="text-[16px]">
             Hendricks, jugo de limón y agua de miel.
           </p>
         </h2>
-        <h2 className="text-[24px] m-3">
+        <h2 className="text-[24px] ">
           CUCUMBER COLLINS [200 CAL] $9
           <p className="text-[16px]">
             Grey Goose Vodka, pepinillos rebanados, albahaca y agua de miel.
           </p>
         </h2>
-        <h2 className="text-[24px] m-3">
+        <h2 className="text-[24px] ">
           OLD FASHIONED [155 CAL] $10
           <p className="text-[16px]">
             Deward's 12, azúcar y bitters de angostura y china.
           </p>
         </h2>
-        <h2 className="text-[24px] m-3">
+        <h2 className="text-[24px] ">
           PEACH WHISKY MULE $9
           <p className="text-[16px]">
             Monkey Shoulder, syrup de melocotón, mix de jengibre hecho en casa y
             agua de soda.
           </p>
         </h2>
-        <h2 className="text-[24px] m-3">
+        <h2 className="text-[24px] ">
           PASION MEZCALRITA $11
           <p className="text-[16px]">
             Montelobos Mezcal, jugo de lima, puré de parcha, syrup de agave y
             hojas de menta fresca
           </p>
         </h2>
-        <h2 className="text-[24px] m-3">
+        <h2 className="text-[24px] ">
           HIBISCUS DRAGON MEZCALRITA $11
           <p className="text-[16px]">
             Montelobos Mezcal, hibiscus, jugo de lima y syrup de agave.
           </p>
         </h2>
       </h1>
-      <button className=" mt-4 bg-red-500 h-18 w-64 text-[24px]">
-        click aqui para ver carta de vinos
-      </button>
-      <img className="mt-6" src={vino} alt="foot" />
+      <Vino></Vino>
+      
     </div>
   );
 };

@@ -5,6 +5,7 @@ import FoodCard from "./FoodCard";
 const Acompañantes = () => {
   return (
     <div className="text-white ">
+      <div id="acompañantes-section"></div>
       <h1 className="text-[44px]">Acompañantes</h1>
       
       <FoodCard img={rl}  title={"GARLIC SPICED TOSTONES"}

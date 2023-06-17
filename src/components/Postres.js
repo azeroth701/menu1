@@ -6,6 +6,8 @@ import FoodCard from "./FoodCard";
 const Postres = () => {
   return (
     <div className="text-white">
+            <div id="postres-section"></div>
+
       <h1 className="text-[44px] m-4">Postres</h1>
 
       <FoodCard
