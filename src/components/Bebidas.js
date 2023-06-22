@@ -1,8 +1,8 @@
 import vino from "../img/vino/carta.jpg";
 import FoodText from "./FoodText";
-import Vino from "./Button";
 
-const Bebidas = () => {
+
+const Bebidas = () => {  
   return (
     <div className="text-white  border-t border-stone-600 ">
       <div id="bebidas-section"></div>
@@ -87,109 +87,108 @@ const Bebidas = () => {
           </p>
         
       
-      <h1 className="text-[28px] underline border-t mt-6">
-        COCTELES
-        <h2 className="text-[24px] ">
+      <h1 className="text-[28px]  border-t mt-4 border-stone-600">
+        COCTELES</h1>
+        <h2 className="text-[24px] underline border-stone-600 border-t mt-4">
           DOWN THE RABBIT HOLE $11 </h2>
           <p className="text-[16px]">
             Whisky Rye, licor de jengibre, jugo de limón y miel.
           </p>
        
-        <h2 className="text-[24px] ">
+        <h2 className="text-[24px] underline border-stone-600 border-t mt-4 ">
           ORGANIC AGAVE MARGARITA [240 CAL] $11  </h2>
           <p className="text-[16px]">
             Tequila Patrón Silver, néctar orgánico de agave agitado con jugo de
             lima fresco.
           </p>
       
-        <h2 className="text-[24px] ">
-          PLATINUM POM MARGARITA [330 CAL] $11
+        <h2 className="text-[24px]  underline border-stone-600 border-t mt-4">
+          PLATINUM POM MARGARITA [330 CAL] $11</h2>
           <p className="text-[16px]">
             Tequila 1800 Silver y Cointreau con cáscaras de china y jugo de
             granada.
           </p>
-        </h2>
-        <h2 className="text-[24px] ">
-          ASIAN PEAR MOJITO [160 CAL] $9
+        
+        <h2 className="text-[24px] underline border-stone-600 border-t mt-4 ">
+          ASIAN PEAR MOJITO [160 CAL] $9  </h2>
           <p className="text-[16px]">
             Bacardi limón, licor de manzana, hojas de menta fresca y limón.
           </p>
-        </h2>
-        <h2 className="text-[24px] ">
-          COCO LIMÓN SOUR [210 CAL] $10
+      
+        <h2 className="text-[24px] underline border-stone-600 border-t mt-4 ">
+          COCO LIMÓN SOUR [210 CAL] $10</h2>
           <p className="text-[16px]">
             Vodka de Coco, agua de coco y jugo de limón fresco.
           </p>
-        </h2>
-        <h2 className="text-[24px] ">
-          DEWAR’S 12 COCO [180 CAL] $8.50
+        
+        <h2 className="text-[24px]  underline border-stone-600 border-t mt-4">
+          DEWAR’S 12 COCO [180 CAL] $8.50 </h2>
           <p className="text-[16px]">Dewar’s 12 mezclado con agua de coco.</p>
-        </h2>
-        <h2 className="text-[24px] ">
-          MOSCOW MULE [160 CAL] $8.50
+       
+        <h2 className="text-[24px] underline border-stone-600 border-t mt-4 ">
+          MOSCOW MULE [160 CAL] $8.50</h2>
           <p className="text-[16px]">
             Tito’s Vodka, House Made Ginger Beer y Agua de soda.
           </p>
-        </h2>
-        <h2 className="text-[24px] ">
-          ROYAL POOL SIDE [220 CAL] $9
+        
+        <h2 className="text-[24px] underline border-stone-600 border-t mt-4">
+          ROYAL POOL SIDE [220 CAL] $9</h2>
           <p className="text-[16px]">ROYAL POOL SIDE [220 CAL] $9</p>Bacardí
           Spiced Rum y Malibu Rum mezclados con curaçao azul, jugos de china y
           piña y un toque de 7up.
-        </h2>
-        <h2 className="text-[24px] ">
-          SANGRÍA [380 CAL] $8.5
+        
+        <h2 className="text-[24px] underline border-stone-600 border-t mt-4">
+          SANGRÍA [380 CAL] $8.5</h2>
           <p className="text-[16px]">
             Vino blanco o tinto, ron y brandy mezclados con frutas frescas.
           </p>
-        </h2>
-        <h2 className="text-[24px] ">
-          STRAWBERRY GINGER MARGARITA [220 CAL] $11
+        
+        <h2 className="text-[24px] underline border-stone-600 border-t mt-4">
+          STRAWBERRY GINGER MARGARITA [220 CAL] $11 </h2>
           <p className="text-[16px]">
             Tequila Patrón Silver, fresas frescas, jugos de jengibre y limón.
           </p>
-        </h2>
-        <h2 className="text-[24px] ">
-          HONEY MINT G&T [220 CAL] $11
+       
+        <h2 className="text-[24px]  underline border-stone-600 border-t mt-4">
+          HONEY MINT G&T [220 CAL] $11</h2>
           <p className="text-[16px]">
             Hendricks, jugo de limón y agua de miel.
           </p>
-        </h2>
-        <h2 className="text-[24px] ">
-          CUCUMBER COLLINS [200 CAL] $9
+        
+        <h2 className="text-[24px] underline border-stone-600 border-t mt-4">
+          CUCUMBER COLLINS [200 CAL] $9</h2>
           <p className="text-[16px]">
             Grey Goose Vodka, pepinillos rebanados, albahaca y agua de miel.
           </p>
-        </h2>
-        <h2 className="text-[24px] ">
-          OLD FASHIONED [155 CAL] $10
+        
+        <h2 className="text-[24px] underline border-stone-600 border-t mt-4 ">
+          OLD FASHIONED [155 CAL] $10</h2>
           <p className="text-[16px]">
             Deward's 12, azúcar y bitters de angostura y china.
           </p>
-        </h2>
-        <h2 className="text-[24px] ">
-          PEACH WHISKY MULE $9
+        
+        <h2 className="text-[24px] underline border-stone-600 border-t mt-4">
+          PEACH WHISKY MULE $9</h2>
           <p className="text-[16px]">
             Monkey Shoulder, syrup de melocotón, mix de jengibre hecho en casa y
             agua de soda.
           </p>
-        </h2>
-        <h2 className="text-[24px] ">
-          PASION MEZCALRITA $11
+        
+        <h2 className="text-[24px] underline border-stone-600 border-t mt-4 ">
+          PASION MEZCALRITA $11 </h2>
           <p className="text-[16px]">
             Montelobos Mezcal, jugo de lima, puré de parcha, syrup de agave y
             hojas de menta fresca
           </p>
-        </h2>
-        <h2 className="text-[24px] ">
-          HIBISCUS DRAGON MEZCALRITA $11
+       
+        <h2 className="text-[24px] underline border-stone-600 border-t mt-4 ">
+          HIBISCUS DRAGON MEZCALRITA $11</h2>
           <p className="text-[16px]">
             Montelobos Mezcal, hibiscus, jugo de lima y syrup de agave.
           </p>
-        </h2>
-      </h1>
-      <Vino></Vino>
+        
       
+    <img src={vino} alt="food"></img>
     </div>
   );
 };

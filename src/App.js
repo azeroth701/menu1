@@ -14,17 +14,12 @@ import Kidmenu from "./components/Kidmenu";
 import Combinacion from "./components/Combinaciones";
 import Ofertas from "./components/Ofertas";
 import log from "../src/img/pfchangs.png";
-import React, { useState } from 'react';
-import vin from "../img/vino/vinos.jpg";
+
+
 
 function App() {
-  const [mostrarImagen, setMostrarImagen] = useState(false);
-
-  const handleClick = () => {
-    setMostrarImagen(true);
-  };
   return (
-    <div className="min-w-[100vh] min-h-[100vh] bg-gray-950  ">
+    <div className="min-w-[100vh] min-h-[100vh] bg-gray-950 sm:max-xl">
       <div className="">
         <img className="m-4 h-[2rem]  " src={log} alt="img"></img>
       </div>
@@ -34,15 +29,11 @@ function App() {
       <div className="flex flex-row m-6">
         <Categoria></Categoria>
         <Menutemp></Menutemp>
-        
       </div>
-      
+
       <div className=" ">
         <Bebidas></Bebidas>
-        <button onClick={handleClick}>Mostrar imagen</button>
-      {mostrarImagen && (
-        <img src={vin} alt="Imagen" />
-      )}
+
         <Acompañantes></Acompañantes>
         <Arrfid></Arrfid>
         <Principales></Principales>
