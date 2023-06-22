@@ -19,14 +19,14 @@ import log from "../src/img/pfchangs.png";
 
 function App() {
   return (
-    <div className="min-w-[100vh] min-h-[100vh] bg-gray-950 sm:max-xl">
+    <div className="min-w-[100vh] min-h-[100vh] bg-gray-950 sm:max-sm">
       <div className="">
         <img className="m-4 h-[2rem]  " src={log} alt="img"></img>
       </div>
       <h1 className="text-white  text-[64px] justify-center  bg-[#a42b33] flex">
         menu
       </h1>
-      <div className="flex flex-row m-6">
+      <div className="flex flex-row m-6 sm:max-xl">
         <Categoria></Categoria>
         <Menutemp></Menutemp>
       </div>
