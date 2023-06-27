@@ -15,23 +15,22 @@ import Combinacion from "./components/Combinaciones";
 import Ofertas from "./components/Ofertas";
 import log from "../src/img/pfchangs.png";
 
-
-
 function App() {
   return (
-    <div className="min-w-[100vh] min-h-[100vh] bg-gray-950 sm:text-left">
+    <div className="min-w-[100vh] min-h-[100vh] bg-gray-950 p-4 sm:p-8">
       <div className="">
         <img className="m-4 h-[2rem]  " src={log} alt="img"></img>
       </div>
-      <h1 className="text-white  text-[64px] justify-center  bg-[#a42b33] flex">
-        menu
+      <h1 className="text-white  text-[44px] justify-center  bg-[#a42b33] p-4  font-['trajan-pro-bold']">
+      Menú T
       </h1>
-      <div className="flex flex-row m-6 sm:max-xl">
+      <div className="m-6  ">
         <Categoria></Categoria>
-        <Menutemp></Menutemp>
+         <Menutemp></Menutemp>
       </div>
 
       <div className=" ">
+       
         <Bebidas></Bebidas>
 
         <Acompañantes></Acompañantes>
