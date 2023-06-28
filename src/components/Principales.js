@@ -17,20 +17,14 @@ import gl from "../img/platos principales/mizo-glazed-salmon.jpg";
 import fe from "../img/platos principales/buddhas-feastjpg.jpg";
 import po from "../img/platos principales/tofu-.jpg";
 import ri from "../img/platos principales/veggie-fried-rice.jpg";
+import { FoodCardList } from "../helpers/PlatosPrincipales";
 import FoodCard from "./FoodCard";
 
 const Principales = () => {
-
- const FoodCardList = [
-    {
-'img':{ke},
-'title':"CHANGâ€™S CHICKEN",
-'description':"Jugosas rebanadas de pechuga de pollo ligeramente empanadado en una salsa que combina especias y tonos agridulces. (960 CAL) 18 Juicy slices of lightly breaded chicken breast in a sauce that combines spices, and sweet and sour notes (960 CAL) 18"
-    }
- ]
+ 
   return (
     <div className="text-white flex flex-col">
-         <div id="platosprincipales-section"></div> 
+      <div id="platosprincipales-section"></div>
       <h1 className="text-[44px]">platos principales</h1>
       <p className="text-[22px]">AVES </p>
 
@@ -39,27 +33,19 @@ const Principales = () => {
         (6 oz) [190 CAL] o integral (6 oz) [220 CAL]. All our entrees include
         your choice of white (6 oz) [190 CAL] or brown (6 oz) [220 CAL] rice.
       </p>
-    
 
-      <FoodCard
-        img={ke}
-        title={"CHANGâ€™S CHICKEN"}
-        description="Jugosas rebanadas de pechuga de pollo ligeramente empanadado en una salsa que combina especias y tonos agridulces. (960 CAL) 18
-Juicy slices of lightly breaded chicken breast in a sauce that combines spices, and sweet and sour notes (960 CAL) 18"
-      />
+      {FoodCardList.map((card) => (
+        <FoodCard
+          img={card.img}
+          title={card.title}
+          description={card.description}
+        />
+      ))}
 
-      <FoodCard
-        img={ho}
-        title={"CRISPY HONEY CHICKEN"}
-        description="Crujientes rebanadas de pechuga de pollo preparadas en una salsa dulce y servidas sobre fideos de arroz fritos. (1420 CAL) 18.5
-Crispy chicken breast slices prepared in a sweet sauce and served over fried rice noodles. (1420 CAL) 18.5"
-      />
-      <FoodCard
-        img={se}
-        title={"SESAME CHICKEN"}
-        description="Rebanadas de pechuga de pollo, brÃ³coli, pimientos rojos, y cebollas en una salsa de ajonjolÃ­ ligeramente picante. (930 CAL) 18.5
-Sliced chicken breasts, broccoli, red bell peppers, and onions in a slightly spicy sesame sauce. (930 CAL) 18.5"
-      />
+      
+
+     
+      
       <FoodCard
         img={sw}
         title={"SWEET & SOUR CHICKEN "}
@@ -192,10 +178,3 @@ Fried rice in a vegetarian sauce, with broccoli, carrots, bean sprouts, mushroom
   );
 };
 export default Principales;
-//{FoodCardList.map((card) => (
- // <FoodCard
-  //  img={card.img}
-   // title={card.title}
-  //  description={card.description}
- // />
-//))}

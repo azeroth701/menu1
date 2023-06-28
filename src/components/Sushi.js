@@ -7,6 +7,7 @@ import ya from "../img/sushi/yin-yang-roll.jpg";
 import as from "../img/sushi/asian-rainbow-roll.jpg";
 import ma from "../img/sushi/maduro-roll.jpg";
 import FoodCard from "./FoodCard";
+import { FoodCardList } from "../helpers/PlatoSushi";
 const Sushi = () => {
   return (
     <div>
@@ -17,7 +18,13 @@ const Sushi = () => {
       
       <h1 className="text-[44px] text-white ">SUSHI</h1>
 
-
+      {FoodCardList.map((card) => (
+        <FoodCard
+          img={card.img}
+          title={card.title}
+          description={card.description}
+        />
+      ))}
 
       <FoodCard img={call}
         title={"CALIFORNIA ROLL "}
