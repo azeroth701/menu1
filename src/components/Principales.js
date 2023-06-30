@@ -17,7 +17,7 @@ import gl from "../img/platos principales/mizo-glazed-salmon.jpg";
 import fe from "../img/platos principales/buddhas-feastjpg.jpg";
 import po from "../img/platos principales/tofu-.jpg";
 import ri from "../img/platos principales/veggie-fried-rice.jpg";
-import { FoodCardList } from "../helpers/PlatosPrincipales";
+import { FoodCardList, FoodCardSteakList } from "../helpers/PlatosPrincipales";
 import FoodCard from "./FoodCard";
 
 const Principales = () => {
@@ -68,6 +68,16 @@ const Principales = () => {
         oz) [190 CAL] o integral (6 oz) [220 CAL]. All our entrees include your
         choice of white (6 oz) [190 CAL] or brown (6 oz) [220 CAL] rice.
       </p>
+
+      {FoodCardSteakList.map((card) => (
+        
+        <FoodCard
+          img={card.img}
+          title={card.title}
+          description={card.description}
+        />
+      ))}
+
       <FoodCard
         img={lo}
         title={"SHRIMP WITH LOBSTER SAUCE"}
