@@ -16,10 +16,11 @@ import Ofertas from "./components/Ofertas";
 import log from "../src/img/pfchangs.png";
 
 
+console.log(2);
 
 function App() {
   return (
-    <div className="min-w-[100vh] min-h-[100vh] bg-gray-950 sm:text-left">
+    <div className="min-w-[100vh] min-h-[100vh] bg-gray-950 sm:text-Rigght">
       <div className="">
         <img className="m-4 h-[2rem]  " src={log} alt="img"></img>
       </div>
