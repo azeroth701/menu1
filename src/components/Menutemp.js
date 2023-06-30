@@ -7,7 +7,7 @@ import ko from "../img/menu de temporada/KoreanBulgogi.jpg";
 import FoodCard from "./FoodCard";
 import FoodText from "./FoodText";
 
-<div id="menutemp-section"></div>
+<div id="menutemp-section"></div>;
 const Temporada = () => {
   return (
     <div className="ml-10 mt-10   ">
@@ -35,12 +35,11 @@ const Temporada = () => {
         title={"EMPEROR'S STRAWBERRY ROLL"}
         description="Rollos rellenos de cheescake y fresas cubiertos en azúcar. 8"
       />
-      
-      <FoodText 
+
+      <FoodText
         title={"ESPRESSO MARTINI"}
         description="Ron Alto Grande, Kahlúa y café espresso. 9"
       />
-      
     </div>
   );
 };
