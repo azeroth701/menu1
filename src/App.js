@@ -17,22 +17,20 @@ import log from "../src/img/pfchangs.png";
 
 function App() {
   return (
-    <div className="min-w-[100vh] min-h-[100vh] bg-gray-950 p-4 sm:p-8">
+    <div className="min-w-[100vh] min-h-[100vh] bg-[#000000] ">
       <div className="">
-        <img className="m-4 h-[2rem]  " src={log} alt="img"></img>
+        <img className="m-4 h-[2.5rem] ml-[100px]  " src={log} alt="img"></img>
       </div>
-      <h1 className="text-white  text-[44px] justify-center  bg-[#a42b33] p-4  font-['trajan-pro-bold']">
-      Menú T
+      <h1 className="text-white  text-[64px] justify-center  bg-[#a42b33] font-serif	">
+        MENÚ
       </h1>
       <div className="m-6  ">
         <Categoria></Categoria>
          <Menutemp></Menutemp>
       </div>
 
-      <div className=" ">
-       
+      <div className=" ml-[468px]">
         <Bebidas></Bebidas>
-
         <Acompañantes></Acompañantes>
         <Arrfid></Arrfid>
         <Principales></Principales>

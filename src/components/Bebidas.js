@@ -1,5 +1,5 @@
 import vino from "../img/vino/carta.jpg";
-import FoodText from "./FoodText";
+
 
 
 const Bebidas = () => {  
@@ -31,7 +31,7 @@ const Bebidas = () => {
       <h1 className="text-[24px] border-t border-stone-600 mt-2 ">
         REFRESCOS [0-130 CAL] $3{" "}
       </h1>
-      <p className="text-[16px] border-b ">
+      <p className="text-[16px] border-b border-stone-600 ">
         Refill ilimitado | Unlimited refill
       </p>
 

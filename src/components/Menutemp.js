@@ -1,17 +1,18 @@
-//l-14 la  correcta seguir ese ejemplo
-//sacar los p de las h por underline
+
 import gek from "../img/menu de temporada/Dynamite.jpg";
 import em from "../img/menu de temporada/EmperorsStrawberry.jpg";
 import ga from "../img/menu de temporada/GarlicNoodles.jpg";
 import ko from "../img/menu de temporada/KoreanBulgogi.jpg";
 import FoodCard from "./FoodCard";
-import FoodText from "./FoodText";
 
-<div id="menutemp-section"></div>;
+
+
 const Temporada = () => {
   return (
-    <div className="ml-10 mt-10   ">
-      <h1 className="text-white text-[44px]  ml-3  ">menu de temporada</h1>
+    
+    <div className=" mt-10 ml-[468px] ">
+      <div id="#Menu-section"></div>
+      <h1 className="text-white text-[48px]  ml-3  ">MENÚ DE TEMPORADA</h1>
       <FoodCard
         img={gek}
         title={"DYNAMITE ROLL"}
@@ -35,8 +36,8 @@ const Temporada = () => {
         title={"EMPEROR'S STRAWBERRY ROLL"}
         description="Rollos rellenos de cheescake y fresas cubiertos en azúcar. 8"
       />
-
-      <FoodText
+      
+      <FoodCard 
         title={"ESPRESSO MARTINI"}
         description="Ron Alto Grande, Kahlúa y café espresso. 9"
       />
