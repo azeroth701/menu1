@@ -4,7 +4,7 @@ import { FoodCardList,
   FoodCardDimList } from "../helpers/PlatoAperitivo";
 const Aperitivos = () => {
   return (
-    <div className="text-white m-16">
+    <div className="text-white ">
       <div id="aperitivos-section"></div>
 
       <h1 className=" text-white text-[44px]  ">Aperitivos</h1>
@@ -13,6 +13,7 @@ const Aperitivos = () => {
           img={card.img}
           title={card.title}
           description={card.description}
+          text={card.text}
         />
       ))}
 
@@ -23,6 +24,8 @@ const Aperitivos = () => {
           img={card.img}
           title={card.title}
           description={card.description}
+          text={card.text}
+     
         />
       ))}
     </div>

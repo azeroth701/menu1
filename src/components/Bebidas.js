@@ -1,5 +1,5 @@
 import vino from "../img/vino/carta.jpg";
-import FoodText from "./FoodText";
+
 
 
 const Bebidas = () => {  

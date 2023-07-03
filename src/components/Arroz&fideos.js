@@ -8,7 +8,7 @@ const Arrfid = () => {
     <div className="text-white">
       <div id="arrozfideos-section"></div>
 
-      <h1 className="text-[44px]">arroz & fideos</h1>
+      <h1 className="text-[44px] font-serif">arroz & fideos</h1>
        
       <p className="text-[16px]">
         Todos nuestros platos principales incluyen su opción de arroz blanco (6

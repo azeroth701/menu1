@@ -1,4 +1,5 @@
-import FoodText from "./FoodText";
+import FoodCard from "./FoodCard";
+
 
 const Kidmenu = () => {
   return (
@@ -6,19 +7,20 @@ const Kidmenu = () => {
        <div id="kidmenu-section"></div>
       <h1 className="text-[44px]">kid's menu</h1>
 
-      <FoodText
+      <FoodCard
         title={"KID'S CHICKEN $7"}
         description="Crujientes trozos de pollo con su selección de Honey Sauce o Salsa Agridulce."
       />
-      <FoodText
+      <FoodCard
         title={"KID'S LO MEIN $7"}
         description="Egg noodles salteados con pollo."
+      
       />
-      <FoodText
+      <FoodCard
         title={"KID'S CHICKEN FRIED RICE $7"}
         description="El favorito de los niños, pero sin todos los vegetales."
       />
-      <FoodText
+      <FoodCard
         title={"BABY BUDDHA'S FEAST $7"}
         description="Guisantes, zanahorias y brócoli servidos al vapor o sofreidos."
       />

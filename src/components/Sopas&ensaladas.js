@@ -14,6 +14,7 @@ const Sopas = () => {
           img={card.img}
           title={card.title}
           description={card.description}
+          text={card.text}
         />
       ))}
       
