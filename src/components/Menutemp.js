@@ -7,11 +7,12 @@ import ko from "../img/menu de temporada/KoreanBulgogi.jpg";
 import FoodCard from "./FoodCard";
 import FoodText from "./FoodText";
 
-<div id="menutemp-section"></div>
+
 const Temporada = () => {
   return (
-    <div className="ml-10 mt-10   ">
-      <h1 className="text-white text-[44px]  ml-3  ">menu de temporada</h1>
+    <div className="ml-10 mt-10  ">
+      <div id="#Menu-section"></div>
+      <h1 className="text-white text-[48px]  ml-3  ">MENÚ DE TEMPORADA</h1>
       <FoodCard
         img={gek}
         title={"DYNAMITE ROLL"}
