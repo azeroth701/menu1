@@ -17,14 +17,14 @@ import log from "../src/img/pfchangs.png";
 
 function App() {
   return (
-    <div className="min-w-[100vh] min-h-[100vh] bg-[#000000] ">
+    <div className="min-w-[100vh] min-h-[100vh] bg-[#000000]   sm:text-left">
       <div className="">
         <img className="m-4 h-[2.5rem] ml-[100px]  " src={log} alt="img"></img>
       </div>
-      <h1 className="text-white  text-[64px] justify-center  bg-[#a42b33] font-serif	">
+      <h1 className="text-white  text-[44px]   bg-[#a42b33] font-serif text-center	">
         MENÚ
       </h1>
-      <div className="m-6  ">
+      <div className=" ">
         <Categoria></Categoria>
          <Menutemp></Menutemp>
       </div>

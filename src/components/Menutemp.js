@@ -10,9 +10,9 @@ import FoodCard from "./FoodCard";
 const Temporada = () => {
   return (
     
-    <div className=" mt-10 ml-[468px] ">
+    <div className="  ml-[468px] ">
       <div id="Menu-section"></div>
-      <h1 className="text-white text-[48px]  ml-3  ">MENÚ DE TEMPORADA</h1>
+      <h1 className="text-white text-[48px]    ">MENÚ DE TEMPORADA</h1>
       <FoodCard
         img={gek}
         title={"DYNAMITE ROLL"}

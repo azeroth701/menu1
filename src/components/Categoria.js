@@ -1,6 +1,6 @@
 const Categoria = () => {
   return (
-    <div className=" font-sans border-2 border-stone-600 bg-[#171513]  w-[27rem] h-[30rem]  fixed ">
+    <div className=" font-sans border-2 border-stone-600 bg-[#171513]  w-[27rem] h-[30rem]  fixed mt-10">
       <nav className="menu ">
         <ul className="  ">
           <div className="text-white font-sans-serif  text-[18px] bg-[#a42b33]    ">
