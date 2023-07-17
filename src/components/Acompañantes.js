@@ -2,7 +2,7 @@ import FoodCard from "./FoodCard";
 import { FoodCardList } from "../helpers/PlatoAcompañante";
 const Acompañantes = () => {
   return (
-    <div className="text-white ">
+    <div className="text-white  ">
       <div id="acompañantes-section"></div>
       <h1 className="text-[44px]">Acompañantes</h1>
 

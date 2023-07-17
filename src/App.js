@@ -17,7 +17,7 @@ import log from "../src/img/pfchangs.png";
 
 function App() {
   return (
-    <div className="min-w-[100vh] min-h-[100vh] bg-[#000000]   sm:text-left">
+    <div className="min-w-[100vh] min-h-[100vh] bg-[#000000]  ">
       <div className="">
         <img className="m-4 h-[2.5rem] ml-[100px]  " src={log} alt="img"></img>
       </div>
