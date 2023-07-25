@@ -4,7 +4,7 @@ import vino from "../img/vino/carta.jpg";
 
 const Bebidas = () => {  
   return (
-    <div className="text-white  border-t border-stone-600  max-w-[300px]">
+    <div className="text-white  border-t border-stone-600  ">
       <div id="bebidas-section"></div>
       <h1 className="text-white text-[44px] mt-32">bebidas</h1>
       <h1 className="text-[24px] border-stone-600 border-b">frapes </h1>

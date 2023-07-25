@@ -3,6 +3,8 @@ import gek from "../img/menu de temporada/Dynamite.jpg";
 import em from "../img/menu de temporada/EmperorsStrawberry.jpg";
 import ga from "../img/menu de temporada/GarlicNoodles.jpg";
 import ko from "../img/menu de temporada/KoreanBulgogi.jpg";
+import cf from "../img/menu de temporada/cafe.jpg";
+
 import FoodCard from "./FoodCard";
 
 
@@ -10,7 +12,7 @@ import FoodCard from "./FoodCard";
 const Temporada = () => {
   return (
     
-    <div className="  ml-[468px]  ">
+    <div className="  ml-[468px]  md:h-full ">
       <div id="Menu-section"></div>
       <h1 className="text-white text-[48px]    ">MENÚ DE TEMPORADA</h1>
       <FoodCard
@@ -38,9 +40,11 @@ const Temporada = () => {
       />
       
       <FoodCard 
+        img={cf}
         title={"ESPRESSO MARTINI"}
         description="Ron Alto Grande, Kahlúa y café espresso. 9"
       />
+      
     </div>
   );
 };
